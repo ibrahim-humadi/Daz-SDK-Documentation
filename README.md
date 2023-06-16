@@ -26,10 +26,11 @@ Select <b>"x64"</b> as the optional platform.<br>
 <br>
 Type <b>"v100"</b> into the Optional toolset to use.<br>
 <br>
-![Alt text](cmake_config.jpg?raw=true "Title")<br>
+![Alt text](cmake_config.jpg?raw=true "Cmake Config")<br>
 Press the Finish button. <br>
 You should see a bunch of name/value pairs appear in your Cmake GUI.<br>
 Type/Paste your Daz Studio directory containing DAZStudio.exe into the value for the name DAZ_STUDIO_EXE_DIR eg: "C:\Daz 3D\Applications\64-bit\DAZ 3D\DAZStudio4"<br>
+![Alt text](cmake_after_config.jpg?raw=true "Cmake After Config")<br>
 Click <b>Generate</b> button in cmake GUI and wait for the build to complete.<br>
 Close Cmake<br>
 Navigate to "\DAZStudio4.5+ SDK\build\64\" and open "DAZ Studio SDK.sln" (In Visual Studio 2017)<br>
