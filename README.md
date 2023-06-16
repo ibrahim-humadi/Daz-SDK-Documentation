@@ -34,6 +34,7 @@ Click <b>Generate</b> button in cmake GUI and wait for the build to complete.<br
 Close Cmake<br>
 Navigate to "\DAZStudio4.5+ SDK\build\64\" and open "DAZ Studio SDK.sln" (In Visual Studio 2017)<br>
 Build the solution<br>
+![Alt text](build_solution.jpg?raw=true "Title")<br>
 If all went well you should now have a bunch of SDK sample plugins created at your daz exe's directory. In my case in: "C:\Daz 3D\Applications\64-bit\DAZ 3D\DAZStudio4\plugins\"<br>
 You can check to see if they compiled correctly by opening Daz and clicking on the help menu and then clicking on "About installed plugins". Scroll through the plugins and see if the plugins with "(SDK Example)" in their names are loaded correctly<br>
 <br>
