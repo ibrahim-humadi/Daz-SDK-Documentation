@@ -26,6 +26,7 @@ Select <b>"x64"</b> as the optional platform.<br>
 <br>
 Type <b>"v100"</b> into the Optional toolset to use.<br>
 <br>
+![Alt text](cmake_config.jpg?raw=true "Title")<br>
 Press the Finish button. <br>
 You should see a bunch of name/value pairs appear in your Cmake GUI.<br>
 Type/Paste your Daz Studio directory containing DAZStudio.exe into the value for the name DAZ_STUDIO_EXE_DIR eg: "C:\Daz 3D\Applications\64-bit\DAZ 3D\DAZStudio4"<br>
