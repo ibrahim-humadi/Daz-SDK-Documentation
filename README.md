@@ -1,6 +1,7 @@
 # Daz SDK Documentation
  A Cheatsheet for Users learning to use Daz3d's SDK <br>
 <br>
+<br>
  Getting started with the SDK:<br>
 <br>
 You will need to download:<br>
@@ -9,7 +10,7 @@ Microsoft Visual Studio 2010 Professional // Hard ****** to find online but we n
 I also used Visual Studio 2017 for actually building the plugins // Easy to find online<br>
 <br>
 I installed/put my daz SDK folder here: "C:\Users\username\Documents\DAZ 3D\Studio\My Library\DAZStudio4.5+ SDK\"<br>
-navigate to this folder^<br>
+Navigate to this folder^<br>
 Create a folder <b>build</b> here.<br>
 Create a folder <b>64</b> inside <b>build</b>^<br>
 <br>
@@ -17,7 +18,6 @@ Launch Cmake<br>
 Click the <b>"Browse Source..."</b> button and navigate to the SDK root folder. eg: "C:\Users\username\Documents\DAZ 3D\Studio\My Library\DAZStudio4.5+ SDK\"<br>
 <br>
 Click the <b>"Browse Build..."</b> button and navigate to "build\64\" folder we created earlier. eg: "C:\Users\username\Documents\DAZ 3D\Studio\My Library\DAZStudio4.5+ SDK\build\64"<br>
-<br>
 <br>
 Click the "Configure" button<br>
 Select <b>"Visual Studio 12 2013"</b> as the generator for the project.<br>
@@ -38,15 +38,21 @@ You can check to see if they compiled correctly by opening Daz and clicking on t
 <br>
 <br>
 Troubleshooting<br>
-
+<br>
 If Cmake complains about MSbuild.exe missing during the configure/generation step then you need to add the folder containing your .net framework witht hat tool inside to your Path env variable.<br>
 In my case thats at: "C:\Windows\Microsoft.NET\Framework64\v4.0.30319"<br>
-So click your start button and type in "environment" and open "Edit the System environment variables" that is suggested to you (On windows 10)<br>
+<br>
+Click your start button and type in "environment" and open "Edit the System environment variables" that is suggested to you (On windows 10)<br>
 Click the "Environment Variables..." button.<br>
 Select the User Variable "Path" and click edit.<br>
 Click "New" and paste your directory here eg: "C:\Windows\Microsoft.NET\Framework64\v4.0.30319"<br>
 Click "OK" on those windows we just opened and you should be good to go!<br>
 <br>
 <br>
-If your Visual Studio complains about missing ammintrin.h then download it from: www.mathworks.com/matlabcentral/answers/uploaded_files/735/ammintrin.m<br>
-rename this file^ to ammintrin.h and move it to "C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include"<br>
+If your Visual Studio complains about missing ammintrin.h:<br>
+Download it from: www.mathworks.com/matlabcentral/answers/uploaded_files/735/ammintrin.m<br>
+Rename this file^ to ammintrin.h and move it to "C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\"<br>
+<br>
+<br>
+If Visual Studio complains about missing 7.1 SDK:<br>
+Open "Visual Studio Installer" program, modify your VS2017 install, click individual components and search/select the 8.1 SDK plugin. I say 8.1 because 7.1 doesnt appear for me. Restart Visual Studio and shoudl be fixed!<br>
