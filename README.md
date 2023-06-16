@@ -13,6 +13,7 @@ I installed/put my daz SDK folder here: "C:\Users\username\Documents\DAZ 3D\Stud
 Navigate to this folder^<br>
 Create a folder <b>build</b> here.<br>
 Create a folder <b>64</b> inside <b>build</b>^<br>
+![Alt text](build_dir.jpg?raw=true "Title")<br>
 <br>
 Launch Cmake<br>
 Click the <b>"Browse Source..."</b> button and navigate to the SDK root folder. eg: "C:\Users\username\Documents\DAZ 3D\Studio\My Library\DAZStudio4.5+ SDK\"<br>
