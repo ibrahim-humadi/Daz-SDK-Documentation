@@ -8,7 +8,7 @@ Cmake (>3.10)// https://cmake.org/download/<br>
 Microsoft Visual Studio 2010 Professional // Hard ****** to find online but we need compiler<br>
 I also used Visual Studio 2017 for actually building the plugins // Easy to find online<br>
 <br>
-I installed/put my daz SDK folder here: "C:\Users\username\Documents\DAZ 3D\Studio\My Library\DAZStudio4.5+ SDK\"
+I installed/put my daz SDK folder here: "C:\Users\username\Documents\DAZ 3D\Studio\My Library\DAZStudio4.5+ SDK\"<br>
 navigate to this folder^<br>
 Create a folder <b>build</b> here.<br>
 Create a folder <b>64</b> inside <b>build</b>^<br>
@@ -18,6 +18,8 @@ Click the <b>"Browse Source..."</b> button and navigate to the SDK root folder. 
 <br>
 Click the <b>"Browse Build..."</b> button and navigate to "build\64\" folder we created earlier. eg: "C:\Users\username\Documents\DAZ 3D\Studio\My Library\DAZStudio4.5+ SDK\build\64"<br>
 <br>
+<br>
+Click the "Configure" button<br>
 Select <b>"Visual Studio 12 2013"</b> as the generator for the project.<br>
 <br>
 Select <b>"x64"</b> as the optional platform.<br>
